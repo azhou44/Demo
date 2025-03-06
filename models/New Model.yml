@@ -4,10 +4,11 @@ label: New Model
 metrics:
   - unique_name: Order Quantity
 relationships:
-  - unique_name: factinternetsales_empty_dimension
+  - unique_name: factinternetsales_productkey_to_product dimension_product sku Level
     from:
       dataset: factinternetsales
-      join_columns: []
+      join_columns:
+        - productkey
     to:
-      dimension: ''
-      level: ''
+      dimension: product dimension
+      level: product sku Level

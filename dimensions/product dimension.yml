@@ -1,0 +1,38 @@
+unique_name: product dimension
+object_type: dimension
+label: product dimension
+hierarchies:
+  - unique_name: Product Hierarchy
+    label: Product Hierarchy
+    folder: Product
+    levels:
+      - unique_name: product line
+      - unique_name: product sku Level
+        secondary_attributes:
+          - unique_name: english product name
+            label: english product name
+            contains_unique_names: false
+            dataset: dimproduct
+            folder: Product
+            is_unique_key: false
+            key_columns:
+              - englishproductname
+            name_column: englishproductname
+level_attributes:
+  - unique_name: product sku Level
+    label: product sku Level
+    contains_unique_names: false
+    dataset: dimproduct
+    folder: Product
+    is_unique_key: false
+    key_columns:
+      - productkey
+    name_column: productkey
+  - unique_name: product line
+    label: product line
+    contains_unique_names: false
+    dataset: dimproduct
+    key_columns:
+      - productline
+    name_column: productline
+type: standard
