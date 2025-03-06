@@ -1,5 +1,13 @@
 unique_name: New Model
 object_type: model
 label: New Model
-metrics: []
-relationships: []
+metrics:
+  - unique_name: Order Quantity
+relationships:
+  - unique_name: factinternetsales_empty_dimension
+    from:
+      dataset: factinternetsales
+      join_columns: []
+    to:
+      dimension: ''
+      level: ''
