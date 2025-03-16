@@ -12,10 +12,11 @@ relationships:
     to:
       dimension: product dimension
       level: product sku Level
-  - unique_name: empty_dataset_Date_Dim
+  - unique_name: factinternetsales_orderdatekey_to_Date Dim_Date
     from:
-      dataset: ''
-      join_columns: []
+      dataset: factinternetsales
+      join_columns:
+        - orderdatekey
     to:
       dimension: Date Dim
-      level: ''
+      level: Date

@@ -6,6 +6,15 @@ hierarchies:
     label: Date Hierarchy
     levels:
       - unique_name: Date
+        secondary_attributes:
+          - unique_name: reporting_day
+            label: reporting_day
+            contains_unique_names: false
+            dataset: datecustom
+            is_unique_key: false
+            key_columns:
+              - reporting_day
+            name_column: reporting_day
 level_attributes:
   - unique_name: Date
     label: Date

@@ -1,0 +1,11 @@
+unique_name: New Calculation
+object_type: metric_calc
+label: New Calculation
+expression: |-
+  IIF(
+      [Date Dim].[Date Hierarchy].[Date].CurrentMember > 
+      [Date Dim].[reporting_day].[reporting_day].CurrentMember,
+      1, 
+      0
+  )
+is_hidden: false
