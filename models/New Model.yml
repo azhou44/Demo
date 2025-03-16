@@ -12,3 +12,10 @@ relationships:
     to:
       dimension: product dimension
       level: product sku Level
+  - unique_name: empty_dataset_Date_Dim
+    from:
+      dataset: ''
+      join_columns: []
+    to:
+      dimension: Date Dim
+      level: ''
