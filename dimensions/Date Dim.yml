@@ -5,6 +5,7 @@ hierarchies:
   - unique_name: Date Hierarchy
     label: Date Hierarchy
     levels:
+      - unique_name: Year
       - unique_name: Date
         secondary_attributes:
           - unique_name: reporting_day
@@ -25,4 +26,13 @@ level_attributes:
       - datekey
     name_column: pk_date
     time_unit: day
+  - unique_name: Year
+    label: Year
+    contains_unique_names: false
+    dataset: datecustom
+    is_unique_key: false
+    key_columns:
+      - year
+    name_column: year_name
+    time_unit: year
 type: time
