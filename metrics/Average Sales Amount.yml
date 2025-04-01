@@ -1,7 +1,7 @@
 unique_name: Average Sales Amount
 object_type: metric
 label: Average Sales Amount
-description: Average Sales Amount
+description: Average Sales Amount test
 calculation_method: average
 format: "$#,##0.00"
 dataset: factinternetsales
