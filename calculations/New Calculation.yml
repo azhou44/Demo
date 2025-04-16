@@ -1,7 +1,5 @@
 unique_name: New Calculation
 object_type: metric_calc
 label: New Calculation
-expression: >-
-  IIF([Order Date Dimension].[Order Retail445].currentMember.LEVEL_NUMBER = 1,
-  NULL, 0)
+expression: MDX expression
 is_hidden: false

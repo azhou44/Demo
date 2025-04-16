@@ -1,0 +1,12 @@
+unique_name: ALL Except Last 12 Months Sold
+object_type: metric_calc
+label: ALL Except Last 12 Months Sold
+expression: |-
+  ALLMEMBEREXCEPT(
+     SUM(
+       { [Order Date Dimension].[Order Date Month Hierarchy].CurrentMember.Lag(11) : [Order Date Dimension].[Order Date Month Hierarchy].CurrentMember },
+       [Measures].[Order Quantity]
+     ),
+     { [Order Date Dimension].[Order Date Month Hierarchy] }
+  )
+is_hidden: false

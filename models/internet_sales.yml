@@ -102,8 +102,9 @@ metrics:
     folder: Time Relative
   - unique_name: Sales Amount Year to Date
     folder: Time Relative
-  - unique_name: New Calculation
+  - unique_name: ALL Except Last 12 Months Sold
     folder: Time Relative
+  - unique_name: New Calculation
 perspectives:
   - unique_name: internet_sales_no_pii
     dimensions:
