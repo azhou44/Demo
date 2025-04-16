@@ -104,7 +104,8 @@ metrics:
     folder: Time Relative
   - unique_name: ALL Except Last 12 Months Sold
     folder: Time Relative
-  - unique_name: New Calculation
+  - unique_name: Tail Example
+  - unique_name: Tail Example last day
 perspectives:
   - unique_name: internet_sales_no_pii
     dimensions:
