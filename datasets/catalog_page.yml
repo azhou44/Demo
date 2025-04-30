@@ -1,0 +1,24 @@
+unique_name: catalog_page
+object_type: dataset
+label: catalog_page
+columns:
+  - name: cp_catalog_page_sk
+    data_type: decimal(38,0)
+  - name: cp_catalog_page_id
+    data_type: string
+  - name: cp_start_date_sk
+    data_type: decimal(38,0)
+  - name: cp_end_date_sk
+    data_type: decimal(38,0)
+  - name: cp_department
+    data_type: string
+  - name: cp_catalog_number
+    data_type: decimal(38,0)
+  - name: cp_catalog_page_number
+    data_type: decimal(38,0)
+  - name: cp_description
+    data_type: string
+  - name: cp_type
+    data_type: string
+connection_id: con_ATSCALE_TUTORIALS_tpcds
+table: catalog_page

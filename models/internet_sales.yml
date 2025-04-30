@@ -106,6 +106,9 @@ metrics:
     folder: Time Relative
   - unique_name: Tail Example
   - unique_name: Tail Example last day
+  - unique_name: Tuple Example
+  - unique_name: Test 2
+  - unique_name: Max Year1
 perspectives:
   - unique_name: internet_sales_no_pii
     dimensions:
