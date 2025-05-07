@@ -1,0 +1,13 @@
+unique_name: Case Statement
+object_type: metric_calc
+label: Case Statement
+expression: |-
+  CASE
+
+    WHEN [Product Dimension].[Product Hierarchy].CURRENTMEMBER.MEMBER_KEY = "R"
+    THEN 1 
+
+    ELSE 2
+
+    END
+is_hidden: false
