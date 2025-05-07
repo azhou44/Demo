@@ -31,5 +31,5 @@ level_attributes:
     dataset: datecustom
     key_columns:
       - year
-    name_column: year
+    name_column: year_name
 type: standard
