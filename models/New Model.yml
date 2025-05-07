@@ -1,0 +1,9 @@
+unique_name: New Model
+object_type: model
+label: New Model
+metrics:
+  - unique_name: Sales Amount
+    folder: Sales Metrics
+  - unique_name: Order Quantity
+    folder: Sales Metrics
+relationships: []

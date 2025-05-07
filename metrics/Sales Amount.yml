@@ -1,0 +1,7 @@
+unique_name: Sales Amount
+object_type: metric
+label: Sales Amount
+description: Sales Sum
+calculation_method: sum
+column: salesamount
+dataset: factinternetsales
