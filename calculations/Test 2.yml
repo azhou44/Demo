@@ -1,8 +1,0 @@
-unique_name: Test 2
-object_type: metric_calc
-label: Test 2
-expression: |-
-  IIF(
-     ([Product Dimension].[Product Hierarchy].CurrentMember.Level.Name = "All"),1,0
-  )
-is_hidden: false

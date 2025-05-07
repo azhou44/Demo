@@ -1,7 +1,0 @@
-unique_name: Tuple Example
-object_type: metric_calc
-label: New Calculation
-expression: >-
-  ([Product Dimension].[Product Subcategory ID].[Product Subcategory ID].&[1],
-  [Measures].[Order Quantity])
-is_hidden: false

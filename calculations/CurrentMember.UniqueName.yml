@@ -1,5 +1,0 @@
-unique_name: CurrentMember.UniqueName
-object_type: metric_calc
-label: CurrentMember.UniqueName
-expression: '[Product Dimension].[Product Hierarchy].CurrentMember.LEVEL_UNIQUE_NAME'
-is_hidden: false
