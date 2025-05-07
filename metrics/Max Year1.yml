@@ -1,6 +1,0 @@
-unique_name: Max Year1
-object_type: metric
-label: Max Year1
-calculation_method: maximum
-column: Year1
-dataset: DateCustom

@@ -1,6 +1,0 @@
-unique_name: Order Quantity2
-object_type: metric
-label: Order Quantity2
-calculation_method: sum
-column: orderquantity
-dataset: factinternetsales
