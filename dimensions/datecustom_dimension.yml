@@ -1,0 +1,35 @@
+unique_name: datecustom_dimension
+object_type: dimension
+label: datecustom_dimension
+hierarchies:
+  - unique_name: datecustom_dimension Hierarchy
+    label: datecustom_dimension Hierarchy
+    levels:
+      - unique_name: year
+      - unique_name: datecustom_dimension Level
+        secondary_attributes:
+          - unique_name: day_of_year
+            label: day_of_year
+            contains_unique_names: false
+            dataset: datecustom
+            is_unique_key: false
+            key_columns:
+              - day_of_year
+            name_column: day_of_year
+level_attributes:
+  - unique_name: datecustom_dimension Level
+    label: datecustom_dimension Level
+    contains_unique_names: false
+    dataset: datecustom
+    is_unique_key: false
+    key_columns:
+      - datekey
+    name_column: pk_date
+  - unique_name: year
+    label: year
+    contains_unique_names: false
+    dataset: datecustom
+    key_columns:
+      - year
+    name_column: year
+type: standard
