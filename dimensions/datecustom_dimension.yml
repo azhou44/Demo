@@ -24,7 +24,7 @@ level_attributes:
     is_unique_key: false
     key_columns:
       - datekey
-    name_column: pk_date
+    name_column: date_name
   - unique_name: year
     label: year
     contains_unique_names: false
