@@ -24,4 +24,16 @@ level_attributes:
     key_columns:
       - customerkey
     name_column: customerkey
+relationships:
+  - unique_name: dimcustomer_geographykey_to_Geo Dim_Geo Dim Level
+    from:
+      dataset: dimcustomer
+      hierarchy: dimcustomer_dimension Hierarchy
+      join_columns:
+        - geographykey
+      level: dimcustomer_dimension Level
+    to:
+      dimension: Geo Dim
+      level: Geo Dim Level
+    type: embedded
 type: standard
