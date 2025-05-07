@@ -8,4 +8,24 @@ metrics:
     folder: Sales Metrics
   - unique_name: m_factinternetsales_salesamount_sum
     folder: Sales Metrics
-relationships: []
+relationships:
+  - unique_name: >-
+      factinternetsales_orderdatekey_to_datecustom_dimension_datecustom_dimension
+      Level
+    from:
+      dataset: factinternetsales
+      join_columns:
+        - orderdatekey
+    to:
+      dimension: datecustom_dimension
+      level: datecustom_dimension Level
+  - unique_name: >-
+      factinternetsales_customerkey_to_dimcustomer_dimension_dimcustomer_dimension
+      Level
+    from:
+      dataset: factinternetsales
+      join_columns:
+        - customerkey
+    to:
+      dimension: dimcustomer_dimension
+      level: dimcustomer_dimension Level
