@@ -1,0 +1,6 @@
+unique_name: m_factinternetsales_test_sum
+object_type: metric
+label: Test
+calculation_method: sum
+column: test
+dataset: factinternetsales
