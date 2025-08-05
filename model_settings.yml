@@ -1,6 +1,0 @@
-object_type: model_settings
-
-overrides:
-
-    internet_sales:
-        "aggregates.create.demandDefined.enabled": false
